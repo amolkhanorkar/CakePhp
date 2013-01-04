@@ -1,0 +1,36 @@
+2013-01-04 17:01:00 Error: [NotFoundException] Not Found
+#0 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(921): include()
+#1 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(884): View->_evaluate('/var/www/cakeph...', Array)
+#2 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(476): View->_render('/var/www/cakeph...')
+#3 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(956): View->render('home', NULL)
+#4 /var/www/cakephp-cakephp-0142e5e/app/Controller/PagesController.php(73): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp-cakephp-0142e5e/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-04 17:01:22 Error: [NotFoundException] Not Found
+#0 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(921): include()
+#1 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(884): View->_evaluate('/var/www/cakeph...', Array)
+#2 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(476): View->_render('/var/www/cakeph...')
+#3 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(956): View->render('home', NULL)
+#4 /var/www/cakephp-cakephp-0142e5e/app/Controller/PagesController.php(73): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp-cakephp-0142e5e/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-01-04 17:29:04 Error: [NotFoundException] Not Found
+#0 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(921): include()
+#1 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(884): View->_evaluate('/var/www/cakeph...', Array)
+#2 /var/www/cakephp-cakephp-0142e5e/lib/Cake/View/View.php(476): View->_render('/var/www/cakeph...')
+#3 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(956): View->render('home', NULL)
+#4 /var/www/cakephp-cakephp-0142e5e/app/Controller/PagesController.php(73): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp-cakephp-0142e5e/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp-cakephp-0142e5e/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
