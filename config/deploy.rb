@@ -3,18 +3,18 @@
 # Variables
 
 set :application, "local.cakephp.com"
-set :repository,  "git@github.com:amolkhanorkar-webonise/Deployment_CakePhp.git"
+set :repository,  "git@github.com:amolkhanorkar-webonise/CakePhp"
 set :scm, "git"
 set :branch, "develop"
-set :deploy_to, "/home/webonise/Projects/Deployment/cakephp-cakephp-0142e5e"
+set :deploy_to, "/home/webonise/Projects/Deployment/cakephp"#-cakephp-0142e5e"
 set :use_sudo, false
-set :keep_release, "5"
+#set :keep_release, "5"
 
 # Roles
 
 role :web, "192.168.0.27"                         # Your HTTP server, Apache/etc
 role :app, "192.168.0.27"  		          # This may be the same as your `Web` server
-role :db,  "192.168.0.27", :primary => true       # This is where Rails migrations will run
+#role :db,  "192.168.0.27", :primary => true       # This is where Rails migrations will run
 
 # Recipes
 
